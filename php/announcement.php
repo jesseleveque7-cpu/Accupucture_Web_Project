@@ -8,9 +8,6 @@ $announcementParagraphs = is_array($announcement['paragraphs'] ?? null)
 $announcementSignature = is_array($announcement['signature'] ?? null)
   ? $announcement['signature']
   : [];
-$announcementSummaryItems = is_array($announcement['summary_items'] ?? null)
-  ? $announcement['summary_items']
-  : [];
 $nav = is_array($S['nav'] ?? null) ? $S['nav'] : [];
 $isHomepageAnnouncement = ($page ?? '') === 'home';
 ?>
@@ -62,17 +59,6 @@ $isHomepageAnnouncement = ($page ?? '') === 'home';
               <span><?= h((string)($announcement['effective_label'] ?? 'Effective from')) ?></span>
               <time datetime="2026-11-01"><?= h((string)($announcement['effective_date'] ?? '1 November 2026')) ?></time>
             </div>
-
-            <h2><?= h((string)($announcement['summary_title'] ?? $announcement['impact_title'] ?? 'At a glance')) ?></h2>
-            <?php if (!empty($announcementSummaryItems)): ?>
-              <ul class="transition-announcement__facts">
-                <?php foreach ($announcementSummaryItems as $item): ?>
-                  <li><?= h((string)$item) ?></li>
-                <?php endforeach; ?>
-              </ul>
-            <?php else: ?>
-              <p><?= h((string)($announcement['impact'] ?? '')) ?></p>
-            <?php endif; ?>
 
             <p class="transition-announcement__more-info"><?= h((string)($announcement['more_info'] ?? '')) ?></p>
 

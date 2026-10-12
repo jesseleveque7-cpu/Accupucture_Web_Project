@@ -91,7 +91,7 @@ $appointment_url = 'https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608
 /**
  * Greenleaf transition links (Paz appointments from 1 November 2026).
  */
-$greenleaf_website_url = 'https://www.greenleaf-acupunctuur.nl/nl';
+$greenleaf_website_url = 'https://greenleaf-acupunctuur.nl/nl/';
 $greenleaf_appointment_url = 'https://calendly.com/greenleaf-almere';
 
 /**
