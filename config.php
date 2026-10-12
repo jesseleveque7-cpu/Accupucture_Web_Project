@@ -90,8 +90,13 @@ $appointment_url = 'https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608
 
 /**
  * Greenleaf transition links (Paz appointments from 1 November 2026).
+ * Greenleaf has no Spanish page, so Spanish visitors use the Dutch page.
  */
-$greenleaf_website_url = 'https://greenleaf-acupunctuur.nl/nl/';
+$greenleaf_website_urls = [
+  'en' => 'https://greenleaf-acupunctuur.nl/en/',
+  'nl' => 'https://greenleaf-acupunctuur.nl/nl/',
+  'es' => 'https://greenleaf-acupunctuur.nl/nl/',
+];
 $greenleaf_appointment_url = 'https://calendly.com/greenleaf-almere';
 
 /**
@@ -125,6 +130,9 @@ if (!in_array($page, $validPages, true)) $page = $default_page;
 
 $_SESSION['lang'] = $lang;
 $_SESSION['selectedPage'] = $page;
+
+$greenleaf_website_url = $greenleaf_website_urls[$lang]
+  ?? $greenleaf_website_urls[$default_lang];
 
 /**
  * Redirect empty query string → canonical URL
