@@ -116,12 +116,14 @@ if ($metaDescription === '') {
         </a>
 
         <div class="lang-switch" data-lang-switch>
-          <button class="lang-btn" type="button" aria-haspopup="listbox" aria-expanded="false" data-lang-toggle>
+          <button class="lang-btn" type="button"
+                  aria-label="<?=h($nav['language_selector_label'] ?? 'Choose language')?>"
+                  title="<?=h($nav['language_selector_label'] ?? 'Choose language')?>"
+                  aria-haspopup="listbox" aria-expanded="false" data-lang-toggle>
             <img class="lang-icon" src="<?=h($currentLangIcon)?>" alt="<?=h($lang)?>" />
-            <span class="lang-caret" aria-hidden="true">▾</span>
           </button>
 
-          <div class="lang-menu" role="listbox" aria-label="Language" data-lang-menu hidden>
+          <div class="lang-menu" role="listbox" aria-label="<?=h($nav['language_selector_label'] ?? 'Choose language')?>" data-lang-menu hidden>
             <?php foreach ($langOptions as $code => $opt): ?>
               <a class="lang-option <?=($lang===$code)?'is-active':''?>"
                  role="option"

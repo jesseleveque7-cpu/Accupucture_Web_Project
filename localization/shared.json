@@ -13,7 +13,8 @@
       "certificates_label": "Certificate",
       "contact_label": "Contact Us",
       "appointment_label_html": "Make an Appointment",
-      "appointment_label": "Make an Appointment"
+      "appointment_label": "Make an Appointment",
+      "language_selector_label": "Choose language"
     },
     "announcement": {
       "eyebrow": "Important notice",
@@ -144,7 +145,8 @@
       "certificates_label": "Certificaat",
       "contact_label": "Contact",
       "appointment_label_html": "Maak een afspraak",
-      "appointment_label": "Maak een afspraak"
+      "appointment_label": "Maak een afspraak",
+      "language_selector_label": "Kies taal"
     },
     "announcement": {
       "eyebrow": "Belangrijke mededeling",
@@ -278,7 +280,8 @@
       "certificates_label": "Certificado",
       "contact_label": "Contacto",
       "appointment_label_html": "Pedir cita",
-      "appointment_label": "Pedir cita"
+      "appointment_label": "Pedir cita",
+      "language_selector_label": "Elegir idioma"
     },
     "announcement": {
       "eyebrow": "Aviso importante",
