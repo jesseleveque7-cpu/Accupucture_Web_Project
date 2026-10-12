@@ -48,9 +48,10 @@
     },
     "cta_labels": {
       "make_appointment": "Make an Appointment",
-      "paz_current": "Book with Paz",
-      "paz_until_october": "Until 31 October",
-      "paz_greenleaf": "Paz via Greenleaf",
+      "paz_current": "Make an appointment",
+      "paz_until_october": "Through 31 October",
+      "paz_booking_note": "For Paz: use the button above through 31 October. From 1 November, use the Greenleaf button below.",
+      "paz_greenleaf": "Book through Greenleaf",
       "paz_from_november": "From 1 November",
       "contact": "Contact us",
       "ask_question": "Ask a question"
@@ -157,9 +158,10 @@
     },
     "cta_labels": {
       "make_appointment": "Maak een afspraak",
-      "paz_current": "Boek bij Paz",
+      "paz_current": "Maak een afspraak",
       "paz_until_october": "T/m 31 oktober",
-      "paz_greenleaf": "Paz via Greenleaf",
+      "paz_booking_note": "Voor Paz: gebruik de knop hierboven tot en met 31 oktober. Gebruik vanaf 1 november de Greenleaf-knop hieronder.",
+      "paz_greenleaf": "Via Greenleaf boeken",
       "paz_from_november": "Vanaf 1 november",
       "contact": "Neem contact op",
       "ask_question": "Stel een vraag"
@@ -266,9 +268,10 @@
     },
     "cta_labels": {
       "make_appointment": "Pedir cita",
-      "paz_current": "Reservar con Paz",
-      "paz_until_october": "Hasta el 31 de octubre",
-      "paz_greenleaf": "Paz con Greenleaf",
+      "paz_current": "Pedir una cita",
+      "paz_until_october": "Hasta el 31 de octubre inclusive",
+      "paz_booking_note": "Para Paz: utilice el botón de arriba hasta el 31 de octubre inclusive. A partir del 1 de noviembre, utilice el botón de Greenleaf de abajo.",
+      "paz_greenleaf": "Reservar mediante Greenleaf",
       "paz_from_november": "Desde el 1 de noviembre",
       "contact": "Contáctanos",
       "ask_question": "Hacer una pregunta"

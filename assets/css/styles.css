@@ -568,12 +568,31 @@ img{ max-width:100%; display:block; }
   margin-top:16px;
 }
 
-.transition-announcement__booking-note{
-  margin:4px 2px 0;
-  color:var(--ink);
+.transition-announcement__booking-guidance{
+  padding:14px;
+  border:1px solid rgba(181,137,69,0.18);
+  border-radius:16px;
+  background:rgba(255,255,255,0.58);
+}
+
+.transition-announcement__booking-guidance h2{
+  margin:0 0 10px;
+  font-size:16px;
+}
+
+.transition-announcement__booking-guidance p{
+  margin:0;
+  color:var(--muted);
   font-size:13px;
-  font-weight:650;
   line-height:1.5;
+}
+
+.transition-announcement__booking-guidance p + p{
+  margin-top:9px;
+}
+
+.transition-announcement__booking-guidance strong{
+  color:var(--ink);
 }
 
 .transition-announcement__links .btn{
@@ -2206,7 +2225,15 @@ img{ max-width:100%; display:block; }
 }
 
 .staff-card__cta--transition{
-  width:190px;
+  width:220px;
+}
+
+.staff-card__booking-note{
+  margin:2px 2px;
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.4;
+  text-align:left;
 }
 
 .staff-card__booking-button{
@@ -2695,7 +2722,7 @@ img{ max-width:100%; display:block; }
     width:100%;
   }
   .staff-card__cta--transition{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .page--privacy .privacy-hero{ grid-template-columns: 1fr; }

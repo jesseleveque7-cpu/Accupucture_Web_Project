@@ -63,6 +63,7 @@ $ctaPazCurrent = $getStr($L, ['cta_labels','paz_current'], 'Book with Paz');
 $ctaPazUntilOctober = $getStr($L, ['cta_labels','paz_until_october'], 'Until 31 October');
 $ctaPazGreenleaf = $getStr($L, ['cta_labels','paz_greenleaf'], 'Paz via Greenleaf');
 $ctaPazFromNovember = $getStr($L, ['cta_labels','paz_from_november'], 'From 1 November');
+$ctaPazBookingNote = $getStr($L, ['cta_labels','paz_booking_note'], 'For Paz: use the button above through 31 October. From 1 November, use the Greenleaf button below.');
 $ctaContact = $getStr($L, ['cta_labels','contact'], 'Contact us');
 $ctaAsk     = $getStr($L, ['cta_labels','ask_question'], 'Ask a question');
 
@@ -281,6 +282,7 @@ $closingSecondaryLabel = (string)($closingSecondary['label'] ?? $ctaContact);
                     <span class="staff-card__booking-label"><?= h($ctaPazCurrent) ?></span>
                     <span class="staff-card__booking-date"><?= h($ctaPazUntilOctober) ?></span>
                   </a>
+                  <p class="staff-card__booking-note"><?= h($ctaPazBookingNote) ?></p>
                   <a class="btn btn--soft btn--sm staff-card__booking-button staff-card__booking-button--future" href="<?= h($greenleaf_appointment_url) ?>" target="_blank" rel="noopener">
                     <span class="staff-card__booking-label"><?= h($ctaPazGreenleaf) ?></span>
                     <span class="staff-card__booking-date"><?= h($ctaPazFromNovember) ?></span>

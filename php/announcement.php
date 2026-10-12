@@ -69,12 +69,20 @@ $isHomepageAnnouncement = ($page ?? '') === 'home';
                 <span class="sr-only"><?= h((string)($announcement['new_tab_label'] ?? 'opens in a new tab')) ?></span>
               </a>
 
-              <p class="transition-announcement__booking-note">
-                <?= h((string)($announcement['booking_note'] ?? 'To make an appointment with Aron or Paz, use the button below.')) ?>
-              </p>
+              <section class="transition-announcement__booking-guidance" aria-labelledby="transition-booking-title">
+                <h2 id="transition-booking-title"><?= h((string)($announcement['appointments_title'] ?? 'Appointments')) ?></h2>
+                <p>
+                  <strong><?= h((string)($announcement['paz_label'] ?? 'For Paz:')) ?></strong>
+                  <?= h((string)($announcement['paz_booking_note'] ?? 'Through 31 October, please use the “Make an appointment” button at the top of this page. From 1 November, please use the Greenleaf booking button below.')) ?>
+                </p>
+                <p>
+                  <strong><?= h((string)($announcement['aron_label'] ?? 'For Aron:')) ?></strong>
+                  <?= h((string)($announcement['aron_booking_note'] ?? 'You can use the Greenleaf booking button below to make an appointment at any time.')) ?>
+                </p>
+              </section>
 
               <a class="btn btn--primary" href="<?= h($greenleaf_appointment_url) ?>" target="_blank" rel="noopener">
-                <?= h((string)($announcement['new_booking_button'] ?? 'Make an appointment')) ?>
+                <?= h((string)($announcement['new_booking_button'] ?? 'Book through Greenleaf')) ?>
                 <span aria-hidden="true">&#8599;</span>
                 <span class="sr-only"><?= h((string)($announcement['new_tab_label'] ?? 'opens in a new tab')) ?></span>
               </a>
