@@ -12,7 +12,30 @@
       "staff_label": "Acupuncturists",
       "certificates_label": "Certificate",
       "contact_label": "Contact Us",
-      "appointment_label_html": "Make an Appointment"
+      "appointment_label_html": "Book through 31 Oct",
+      "appointment_label": "Book through 31 Oct"
+    },
+    "announcement": {
+      "eyebrow": "Important notice",
+      "title": "Heng Ren Tang Acupuncture is becoming Greenleaf Acupuncture",
+      "greeting": "Dear clients,",
+      "paragraphs": [
+        "From 1 November 2026, our practice will continue under the name Greenleaf Acupuncture.",
+        "Over the past years, we have had the privilege of supporting you with great care and dedication. We look back on this period with gratitude. Your trust and the personal contact have made our work especially valuable."
+      ],
+      "impact_title": "What does this mean for you?",
+      "impact": "The practice will continue and you remain welcome for your treatments. Paz Lobo will continue working at the practice. Fransisca Ekkel is saying goodbye, and Aron will take over her work.",
+      "more_info": "More information about Greenleaf Acupuncture and booking an appointment is available through the links below.",
+      "website_button": "Greenleaf Acupuncture website",
+      "new_booking_button": "Book from 1 November",
+      "current_booking_title": "Appointments through 31 October 2026",
+      "current_booking_note": "The regular Heng Ren Tang appointment buttons are only for appointments up to and including 31 October 2026.",
+      "current_booking_button": "Book through 31 October",
+      "paz_booking_button": "Book Paz from 1 November",
+      "details_label": "Practice transition details",
+      "thanks": "We sincerely thank you for your trust and wish you all the best and a healthy future.",
+      "signoff": "Warm regards,",
+      "signature": ["Fransisca Ekkel", "Team Heng Ren Tang"]
     },
     "footer": {
       "blurb": "Warm, personal acupuncture care in Almere. We focus on Balance Method acupuncture with attention to comfort, clarity, and results.",
@@ -123,7 +146,30 @@
       "staff_label": "Acupuncturisten",
       "certificates_label": "Certificaat",
       "contact_label": "Contact",
-      "appointment_label_html": "Maak een afspraak"
+      "appointment_label_html": "Boek t/m 31 okt",
+      "appointment_label": "Boek t/m 31 okt"
+    },
+    "announcement": {
+      "eyebrow": "Belangrijke mededeling",
+      "title": "Heng Ren Tang Acupunctuur wordt Greenleaf Acupunctuur",
+      "greeting": "Beste cliënten,",
+      "paragraphs": [
+        "Per 1 november 2026 gaat onze praktijk verder onder de naam Greenleaf Acupunctuur.",
+        "De afgelopen jaren hebben wij u met veel aandacht en toewijding mogen begeleiden. Wij kijken met dankbaarheid terug op deze tijd. Uw vertrouwen en het persoonlijke contact hebben ons werk bijzonder waardevol gemaakt."
+      ],
+      "impact_title": "Wat betekent dit voor u?",
+      "impact": "De praktijk blijft bestaan en u blijft welkom voor uw behandelingen. Paz Lobo blijft werkzaam in de praktijk. Fransisca Ekkel neemt afscheid en Aron neemt haar werkzaamheden over.",
+      "more_info": "Meer informatie over Greenleaf Acupunctuur en het maken van een afspraak vindt u via onderstaande links.",
+      "website_button": "Website Greenleaf Acupunctuur",
+      "new_booking_button": "Boek vanaf 1 november",
+      "current_booking_title": "Afspraken t/m 31 oktober 2026",
+      "current_booking_note": "De reguliere afspraakknoppen van Heng Ren Tang zijn alleen bedoeld voor afspraken tot en met 31 oktober 2026.",
+      "current_booking_button": "Boek t/m 31 oktober",
+      "paz_booking_button": "Boek Paz vanaf 1 november",
+      "details_label": "Informatie over de praktijkovergang",
+      "thanks": "Wij danken u hartelijk voor uw vertrouwen en wensen u alle goeds en een gezonde toekomst.",
+      "signoff": "Met warme groet,",
+      "signature": ["Fransisca Ekkel", "Team Heng Ren Tang"]
     },
     "footer": {
       "blurb": "Warme, persoonlijke acupunctuurzorg in Almere. Wij werken met Balansmethode-acupunctuur, met aandacht voor comfort, duidelijkheid en resultaat.",
@@ -237,7 +283,30 @@
       "staff_label": "Acupunturistas",
       "certificates_label": "Certificado",
       "contact_label": "Contacto",
-      "appointment_label_html": "Pedir cita"
+      "appointment_label_html": "Reservar hasta 31 oct",
+      "appointment_label": "Reservar hasta 31 oct"
+    },
+    "announcement": {
+      "eyebrow": "Aviso importante",
+      "title": "Heng Ren Tang Acupuntura pasa a ser Greenleaf Acupuntura",
+      "greeting": "Estimados clientes:",
+      "paragraphs": [
+        "A partir del 1 de noviembre de 2026, nuestra clínica continuará bajo el nombre de Greenleaf Acupuntura.",
+        "Durante los últimos años hemos tenido el privilegio de acompañarles con gran atención y dedicación. Recordamos esta etapa con gratitud. Su confianza y el contacto personal han hecho que nuestro trabajo sea especialmente valioso."
+      ],
+      "impact_title": "¿Qué significa esto para ustedes?",
+      "impact": "La clínica seguirá funcionando y continuarán siendo bienvenidos para sus tratamientos. Paz Lobo continuará trabajando en la clínica. Fransisca Ekkel se despide y Aron asumirá sus funciones.",
+      "more_info": "Encontrarán más información sobre Greenleaf Acupuntura y cómo concertar una cita en los enlaces siguientes.",
+      "website_button": "Sitio web de Greenleaf Acupuntura",
+      "new_booking_button": "Reservar desde el 1 de noviembre",
+      "current_booking_title": "Citas hasta el 31 de octubre de 2026",
+      "current_booking_note": "Los botones habituales de cita de Heng Ren Tang son únicamente para citas hasta el 31 de octubre de 2026 inclusive.",
+      "current_booking_button": "Reservar hasta el 31 de octubre",
+      "paz_booking_button": "Reservar con Paz desde el 1 de noviembre",
+      "details_label": "Información sobre la transición de la clínica",
+      "thanks": "Les agradecemos sinceramente su confianza y les deseamos todo lo mejor y un futuro saludable.",
+      "signoff": "Un cordial saludo,",
+      "signature": ["Fransisca Ekkel", "Equipo de Heng Ren Tang"]
     },
     "footer": {
       "blurb": "Acupuntura cálida y personal en Almere. Nos centramos en la acupuntura del Método del Equilibrio, con atención al confort, la claridad y los resultados.",

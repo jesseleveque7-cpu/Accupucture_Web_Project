@@ -84,6 +84,12 @@ $titles = [
 $appointment_url = 'https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step3';
 
 /**
+ * Greenleaf transition links (appointments from 1 November 2026).
+ */
+$greenleaf_website_url = 'https://www.greenleaf-acupunctuur.nl/nl';
+$greenleaf_appointment_url = 'https://calendly.com/greenleaf-almere';
+
+/**
  * Determine base URL (useful for redirects & nav)
  */
 $scheme = $is_https ? 'https' : 'http';

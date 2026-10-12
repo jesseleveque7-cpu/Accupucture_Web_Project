@@ -390,6 +390,14 @@ $heroThirdHref   = $cta_href($heroThird);
                 <?php endforeach; ?>
               </div>
             <?php endif; ?>
+
+            <?php if (($m['key'] ?? '') === 'paz'): ?>
+              <div class="team-card__actions">
+                <a class="btn btn--soft btn--sm" href="<?=h($greenleaf_appointment_url)?>" target="_blank" rel="noopener">
+                  <?=h((string)($S['announcement']['paz_booking_button'] ?? 'Book Paz from 1 November'))?>
+                </a>
+              </div>
+            <?php endif; ?>
           </article>
         <?php endforeach; ?>
       </div>
