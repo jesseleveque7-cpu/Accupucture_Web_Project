@@ -33,7 +33,9 @@ dbg_log('Hero title', $L['hero']['title'] ?? '(missing)');
 dbg_panel_end();
 
 include __DIR__ . '/php/header.php';
-if ($page !== 'notice') {
+if ($page === 'home') {
+  include __DIR__ . '/php/announcement.php';
+} elseif ($page !== 'notice') {
   include __DIR__ . '/php/notice-strip.php';
 }
 include $template;

@@ -380,6 +380,25 @@ img{ max-width:100%; display:block; }
     linear-gradient(180deg, rgba(246,239,229,0.74), rgba(251,247,240,0));
 }
 
+.transition-announcement--homepage{
+  padding:clamp(28px, 4vw, 50px) 0;
+  border-bottom:1px solid rgba(184,132,58,0.22);
+  background:
+    radial-gradient(680px 280px at 8% 0%, rgba(216,180,106,0.25), transparent 68%),
+    radial-gradient(560px 280px at 96% 100%, rgba(179,221,245,0.17), transparent 70%),
+    linear-gradient(135deg, rgba(246,239,229,0.98), rgba(255,255,255,0.80));
+}
+
+.transition-announcement--homepage .transition-announcement__shell{
+  max-width:1120px;
+}
+
+.transition-announcement--homepage .transition-announcement__card{
+  border-radius:28px;
+  background:rgba(255,255,255,0.88);
+  box-shadow:0 22px 56px rgba(75,46,22,0.11);
+}
+
 .transition-announcement__shell{ max-width:1060px; }
 
 .transition-announcement__breadcrumb{
@@ -413,6 +432,7 @@ img{ max-width:100%; display:block; }
 .transition-announcement__eyebrow,
 .transition-announcement__title,
 .transition-announcement__copy,
+.transition-announcement__impact,
 .transition-announcement__details h3,
 .transition-announcement__details p,
 .transition-announcement__closing{
@@ -463,6 +483,24 @@ img{ max-width:100%; display:block; }
 .transition-announcement__copy > p,
 .transition-announcement__details > p{
   margin:0 0 12px;
+}
+
+.transition-announcement__impact{
+  margin-top:24px;
+  padding:20px;
+  border-left:3px solid var(--accent);
+  border-radius:0 16px 16px 0;
+  background:rgba(216,180,106,0.11);
+}
+
+.transition-announcement__impact h2{
+  margin:0 0 8px;
+  color:var(--text);
+  font-size:20px;
+}
+
+.transition-announcement__impact p{
+  margin:0;
 }
 
 .transition-announcement__closing{
@@ -2692,6 +2730,7 @@ img{ max-width:100%; display:block; }
 
   .notice-strip__message{ width:100%; }
   .notice-strip__button{ width:100%; white-space:normal; }
+
 }
 
 /* ==========================================================================
@@ -2707,7 +2746,11 @@ img{ max-width:100%; display:block; }
   .notice-strip__button{ width:100%; }
 
   .transition-announcement{ padding:28px 0; }
+  .transition-announcement--homepage{ padding:18px 0 24px; }
   .transition-announcement__card{ padding:18px; border-radius:20px; }
+  .transition-announcement--homepage .transition-announcement__card{ border-radius:22px; }
+  .transition-announcement__heading{ margin-bottom:22px; }
+  .transition-announcement__impact{ padding:16px; }
   .transition-announcement__links .btn{ width:100%; white-space:normal; text-align:center; }
 
   .brand__tagline{ display:none; }

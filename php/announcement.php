@@ -12,16 +12,19 @@ $announcementSummaryItems = is_array($announcement['summary_items'] ?? null)
   ? $announcement['summary_items']
   : [];
 $nav = is_array($S['nav'] ?? null) ? $S['nav'] : [];
+$isHomepageAnnouncement = ($page ?? '') === 'home';
 ?>
 
 <?php if (!empty($announcement)): ?>
-  <section class="transition-announcement" aria-labelledby="transition-announcement-title">
+  <section class="transition-announcement<?= $isHomepageAnnouncement ? ' transition-announcement--homepage' : '' ?>" aria-labelledby="transition-announcement-title">
     <div class="container transition-announcement__shell">
-      <nav class="transition-announcement__breadcrumb" aria-label="<?= h((string)($announcement['breadcrumb_label'] ?? 'Breadcrumb')) ?>">
-        <a href="<?= h(page_url($base_url, $lang, 'home')) ?>"><?= h((string)($nav['home_label'] ?? 'Home')) ?></a>
-        <span aria-hidden="true">/</span>
-        <span aria-current="page"><?= h((string)($announcement['eyebrow'] ?? 'Important notice')) ?></span>
-      </nav>
+      <?php if (!$isHomepageAnnouncement): ?>
+        <nav class="transition-announcement__breadcrumb" aria-label="<?= h((string)($announcement['breadcrumb_label'] ?? 'Breadcrumb')) ?>">
+          <a href="<?= h(page_url($base_url, $lang, 'home')) ?>"><?= h((string)($nav['home_label'] ?? 'Home')) ?></a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page"><?= h((string)($announcement['eyebrow'] ?? 'Important notice')) ?></span>
+        </nav>
+      <?php endif; ?>
 
       <div class="transition-announcement__card">
         <div class="transition-announcement__heading">
@@ -37,6 +40,11 @@ $nav = is_array($S['nav'] ?? null) ? $S['nav'] : [];
             <?php foreach ($announcementParagraphs as $paragraph): ?>
               <p><?= h((string)$paragraph) ?></p>
             <?php endforeach; ?>
+
+            <div class="transition-announcement__impact">
+              <h2><?= h((string)($announcement['impact_title'] ?? '')) ?></h2>
+              <p><?= h((string)($announcement['impact'] ?? '')) ?></p>
+            </div>
 
             <div class="transition-announcement__closing">
               <p class="transition-announcement__thanks"><?= h((string)($announcement['thanks'] ?? '')) ?></p>

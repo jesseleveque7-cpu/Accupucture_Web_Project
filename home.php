@@ -69,7 +69,7 @@ $heroThirdHref   = $cta_href($heroThird);
   <section class="section section--hero" style="--hero-bg: url('../images/Home_Hero_bg.png');">
     <div class="container hero">
       <div class="hero__copy">
-        <h1 class="h1"><?=h((string)($hero['title'] ?? ''))?></h1>
+        <h2 class="h1"><?=h((string)($hero['title'] ?? ''))?></h2>
         <p class="lead"><?=h((string)($hero['subtitle'] ?? ''))?></p>
         <p class="body"><?=h((string)($hero['paragraph'] ?? ''))?></p>
 
