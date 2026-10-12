@@ -68,8 +68,13 @@ $isHomepageAnnouncement = ($page ?? '') === 'home';
                 <span aria-hidden="true">&#8599;</span>
                 <span class="sr-only"><?= h((string)($announcement['new_tab_label'] ?? 'opens in a new tab')) ?></span>
               </a>
+
+              <p class="transition-announcement__booking-note">
+                <?= h((string)($announcement['booking_note'] ?? 'To make an appointment with Aron or Paz, use the button below.')) ?>
+              </p>
+
               <a class="btn btn--primary" href="<?= h($greenleaf_appointment_url) ?>" target="_blank" rel="noopener">
-                <?= h((string)($announcement['new_booking_button'] ?? 'Book with Paz from 1 November')) ?>
+                <?= h((string)($announcement['new_booking_button'] ?? 'Book with Aron or Paz from 1 November')) ?>
                 <span aria-hidden="true">&#8599;</span>
                 <span class="sr-only"><?= h((string)($announcement['new_tab_label'] ?? 'opens in a new tab')) ?></span>
               </a>

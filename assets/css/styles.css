@@ -568,6 +568,14 @@ img{ max-width:100%; display:block; }
   margin-top:16px;
 }
 
+.transition-announcement__booking-note{
+  margin:4px 2px 0;
+  color:var(--ink);
+  font-size:13px;
+  font-weight:650;
+  line-height:1.5;
+}
+
 .transition-announcement__links .btn{
   width:100%;
   min-height:44px;
