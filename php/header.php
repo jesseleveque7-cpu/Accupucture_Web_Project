@@ -26,6 +26,8 @@ $langOptions = [
 
 $currentLangIcon = $langOptions[$lang]['icon'] ?? $langOptions['en']['icon'];
 $canonicalUrl = page_url($base_url, $lang, $page);
+$stylesFile = dirname(__DIR__) . '/assets/css/styles.css';
+$stylesVersion = is_file($stylesFile) ? (string)(filemtime($stylesFile) ?: 1) : '1';
 $metaDescription = trim((string)($L['hero']['subtitle'] ?? $site['tagline'] ?? ''));
 if ($metaDescription === '') {
   $metaDescription = 'Heng Ren Tang Acupuncture Clinic in Almere. Personal acupuncture care using the Balance Method.';
@@ -48,7 +50,7 @@ if ($metaDescription === '') {
   <meta property="og:description" content="<?=h($metaDescription)?>" />
   <meta property="og:url" content="<?=h($canonicalUrl)?>" />
   <meta property="og:image" content="<?=h($base_url . '/assets/images/Heng_ren_tang_logo.png')?>" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=<?=h($stylesVersion)?>" />
 
   <link rel="icon" href="assets/images/Heng_ren_tang_favicon.ico" type="image/x-icon" />
 

@@ -18,10 +18,12 @@
     },
     "notice_strip": {
       "title": "Practice update",
-      "text": "Heng Ren Tang Acupuncture will continue as Greenleaf Acupuncture from 1 November 2026.",
+      "date": "1 November 2026",
+      "text": "Heng Ren Tang Acupuncture will continue under the name Greenleaf Acupuncture.",
       "button": "Read the important notice"
     },
     "announcement": {
+      "breadcrumb_label": "Breadcrumb",
       "eyebrow": "Important notice",
       "title": "Heng Ren Tang Acupuncture is becoming Greenleaf Acupuncture",
       "greeting": "Dear clients,",
@@ -30,12 +32,23 @@
         "Over the past years, we have had the privilege of supporting you with great care and dedication. We look back on this period with gratitude. Your trust and the personal contact have made our work especially valuable."
       ],
       "impact_title": "What does this mean for you?",
-      "impact": "The practice will continue and you remain welcome for your treatments. Paz Lobo will continue working at the practice. Fransisca Ekkel is saying goodbye, and Aron will take over her work.",
-      "more_info": "More information about Greenleaf Acupuncture is available on the new website. The Greenleaf booking link below is only for appointments with Paz from 1 November 2026; all other appointment buttons continue to work as normal.",
+      "impact": "The practice will continue and you remain welcome for your treatments. Paz Lobo will continue working at the practice. Fransisca Ekkel is leaving, and Aron will take over her work.",
+      "effective_label": "Effective from",
+      "effective_date": "1 November 2026",
+      "summary_title": "At a glance",
+      "summary_items": [
+        "The practice continues under the name Greenleaf Acupuncture.",
+        "Treatments continue as normal.",
+        "Paz remains at the practice.",
+        "Fransisca is leaving; Aron takes over her work.",
+        "The Greenleaf booking link is only for Paz; all other appointment buttons continue to work as normal."
+      ],
+      "more_info": "Visit the new website for more information or book an appointment with Paz from 1 November.",
       "website_button": "Greenleaf Acupuncture website",
       "new_booking_button": "Book with Paz from 1 November",
       "paz_booking_button": "Book with Paz from 1 November",
       "details_label": "Practice transition details",
+      "new_tab_label": "opens in a new tab",
       "thanks": "We sincerely thank you for your trust and wish you all the best and a healthy future.",
       "signoff": "Warm regards,",
       "signature": ["Fransisca Ekkel", "Team Heng Ren Tang"]
@@ -155,10 +168,12 @@
     },
     "notice_strip": {
       "title": "Praktijkupdate",
-      "text": "Heng Ren Tang Acupunctuur gaat per 1 november 2026 verder als Greenleaf Acupunctuur.",
+      "date": "1 november 2026",
+      "text": "Heng Ren Tang Acupunctuur gaat verder onder de naam Greenleaf Acupunctuur.",
       "button": "Lees de belangrijke mededeling"
     },
     "announcement": {
+      "breadcrumb_label": "Broodkruimelnavigatie",
       "eyebrow": "Belangrijke mededeling",
       "title": "Heng Ren Tang Acupunctuur wordt Greenleaf Acupunctuur",
       "greeting": "Beste cliënten,",
@@ -168,11 +183,22 @@
       ],
       "impact_title": "Wat betekent dit voor u?",
       "impact": "De praktijk blijft bestaan en u blijft welkom voor uw behandelingen. Paz Lobo blijft werkzaam in de praktijk. Fransisca Ekkel neemt afscheid en Aron neemt haar werkzaamheden over.",
-      "more_info": "Meer informatie over Greenleaf Acupunctuur vindt u op de nieuwe website. De Greenleaf-afspraaklink hieronder is alleen voor afspraken met Paz vanaf 1 november 2026; alle andere afspraakknoppen blijven normaal werken.",
+      "effective_label": "Vanaf",
+      "effective_date": "1 november 2026",
+      "summary_title": "In het kort",
+      "summary_items": [
+        "De praktijk gaat verder onder de naam Greenleaf Acupunctuur.",
+        "Behandelingen gaan gewoon door.",
+        "Paz blijft werkzaam in de praktijk.",
+        "Fransisca neemt afscheid; Aron neemt haar werkzaamheden over.",
+        "De afspraaklink van Greenleaf is alleen voor Paz; alle andere afspraakknoppen blijven gewoon werken."
+      ],
+      "more_info": "Bezoek de nieuwe website voor meer informatie of boek vanaf 1 november een afspraak met Paz.",
       "website_button": "Website Greenleaf Acupunctuur",
       "new_booking_button": "Boek bij Paz vanaf 1 november",
       "paz_booking_button": "Boek bij Paz vanaf 1 november",
       "details_label": "Informatie over de praktijkovergang",
+      "new_tab_label": "opent in een nieuw tabblad",
       "thanks": "Wij danken u hartelijk voor uw vertrouwen en wensen u alle goeds en een gezonde toekomst.",
       "signoff": "Met warme groet,",
       "signature": ["Fransisca Ekkel", "Team Heng Ren Tang"]
@@ -295,10 +321,12 @@
     },
     "notice_strip": {
       "title": "Actualización de la clínica",
-      "text": "Heng Ren Tang Acupuntura continuará como Greenleaf Acupuntura a partir del 1 de noviembre de 2026.",
+      "date": "1 de noviembre de 2026",
+      "text": "Heng Ren Tang Acupuntura continuará bajo el nombre de Greenleaf Acupuntura.",
       "button": "Leer el aviso importante"
     },
     "announcement": {
+      "breadcrumb_label": "Ruta de navegación",
       "eyebrow": "Aviso importante",
       "title": "Heng Ren Tang Acupuntura pasa a ser Greenleaf Acupuntura",
       "greeting": "Estimados clientes:",
@@ -307,13 +335,24 @@
         "Durante los últimos años hemos tenido el privilegio de acompañarles con gran atención y dedicación. Recordamos esta etapa con gratitud. Su confianza y el contacto personal han hecho que nuestro trabajo sea especialmente valioso."
       ],
       "impact_title": "¿Qué significa esto para ustedes?",
-      "impact": "La clínica seguirá funcionando y continuarán siendo bienvenidos para sus tratamientos. Paz Lobo continuará trabajando en la clínica. Fransisca Ekkel se despide y Aron asumirá sus funciones.",
-      "more_info": "Encontrarán más información sobre Greenleaf Acupuntura en el nuevo sitio web. El enlace de reserva de Greenleaf que aparece a continuación es solo para citas con Paz a partir del 1 de noviembre de 2026; los demás botones de cita seguirán funcionando con normalidad.",
+      "impact": "La clínica seguirá abierta y podrán continuar sus tratamientos con nosotros. Paz Lobo continuará trabajando en la clínica. Fransisca Ekkel se despide y Aron asumirá sus funciones.",
+      "effective_label": "A partir del",
+      "effective_date": "1 de noviembre de 2026",
+      "summary_title": "En resumen",
+      "summary_items": [
+        "La clínica continúa bajo el nombre de Greenleaf Acupuntura.",
+        "Los tratamientos continúan con normalidad.",
+        "Paz sigue trabajando en la clínica.",
+        "Fransisca se despide; Aron asume sus funciones.",
+        "El enlace de Greenleaf para citas es solo con Paz; los demás botones de cita siguen funcionando con normalidad."
+      ],
+      "more_info": "Visiten el nuevo sitio web para más información o reserven una cita con Paz a partir del 1 de noviembre.",
       "website_button": "Sitio web de Greenleaf Acupuntura",
       "new_booking_button": "Reservar con Paz desde el 1 de noviembre",
       "paz_booking_button": "Reservar con Paz desde el 1 de noviembre",
       "details_label": "Información sobre la transición de la clínica",
-      "thanks": "Les agradecemos sinceramente su confianza y les deseamos todo lo mejor y un futuro saludable.",
+      "new_tab_label": "se abre en una nueva pestaña",
+      "thanks": "Les agradecemos sinceramente su confianza y les deseamos mucha salud y todo lo mejor para el futuro.",
       "signoff": "Un cordial saludo,",
       "signature": ["Fransisca Ekkel", "Equipo de Heng Ren Tang"]
     },
