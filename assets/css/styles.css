@@ -270,8 +270,52 @@ img{ max-width:100%; display:block; }
    2.1) PRACTICE TRANSITION ANNOUNCEMENT
    ========================================================================== */
 
+.notice-strip{
+  border-bottom:1px solid rgba(184,132,58,0.18);
+  background:
+    linear-gradient(90deg, rgba(216,180,106,0.14), rgba(246,239,229,0.72) 52%, rgba(255,255,255,0.70));
+}
+
+.notice-strip__inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  min-height:58px;
+  padding:9px 0;
+}
+
+.notice-strip__copy{
+  display:flex;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:4px 10px;
+  min-width:0;
+}
+
+.notice-strip__title{
+  color:var(--chocolate);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+
+.notice-strip__text{
+  margin:0;
+  color:rgba(42,38,33,0.78);
+  font-size:13px;
+  line-height:1.45;
+}
+
+.notice-strip__button{
+  flex:0 0 auto;
+  min-height:34px;
+  padding:8px 14px;
+}
+
 .transition-announcement{
-  padding: 22px 0 10px;
+  padding: clamp(36px, 5vw, 70px) 0;
   background:
     radial-gradient(720px 220px at 12% 0%, rgba(216,180,106,0.18), transparent 66%),
     linear-gradient(180deg, rgba(246,239,229,0.74), rgba(251,247,240,0));
@@ -2499,7 +2543,15 @@ img{ max-width:100%; display:block; }
   .actions{ gap: 8px; }
   .btn{ width: auto; }
 
-  .transition-announcement{ padding-top:14px; }
+  .notice-strip__inner{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:9px;
+    padding:12px 0;
+  }
+  .notice-strip__button{ width:100%; }
+
+  .transition-announcement{ padding:28px 0; }
   .transition-announcement__card{ padding:18px; border-radius:20px; }
   .transition-announcement__links{ flex-direction:column; align-items:stretch; }
   .transition-announcement__links .btn{ width:100%; white-space:normal; text-align:center; }

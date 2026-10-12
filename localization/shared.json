@@ -16,6 +16,11 @@
       "appointment_label": "Make an Appointment",
       "language_selector_label": "Choose language"
     },
+    "notice_strip": {
+      "title": "Practice update",
+      "text": "Heng Ren Tang Acupuncture will continue as Greenleaf Acupuncture from 1 November 2026.",
+      "button": "Read the important notice"
+    },
     "announcement": {
       "eyebrow": "Important notice",
       "title": "Heng Ren Tang Acupuncture is becoming Greenleaf Acupuncture",
@@ -147,6 +152,11 @@
       "appointment_label_html": "Maak een afspraak",
       "appointment_label": "Maak een afspraak",
       "language_selector_label": "Kies taal"
+    },
+    "notice_strip": {
+      "title": "Praktijkupdate",
+      "text": "Heng Ren Tang Acupunctuur gaat per 1 november 2026 verder als Greenleaf Acupunctuur.",
+      "button": "Lees de belangrijke mededeling"
     },
     "announcement": {
       "eyebrow": "Belangrijke mededeling",
@@ -282,6 +292,11 @@
       "appointment_label_html": "Pedir cita",
       "appointment_label": "Pedir cita",
       "language_selector_label": "Elegir idioma"
+    },
+    "notice_strip": {
+      "title": "Actualización de la clínica",
+      "text": "Heng Ren Tang Acupuntura continuará como Greenleaf Acupuntura a partir del 1 de noviembre de 2026.",
+      "button": "Leer el aviso importante"
     },
     "announcement": {
       "eyebrow": "Aviso importante",

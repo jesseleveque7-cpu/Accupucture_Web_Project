@@ -35,7 +35,7 @@ $featureEnabled = function(string $key) use ($features): bool {
  * Allowed routes
  */
 $validLanguages = ['nl', 'en', 'es'];
-$validPages = ['home', 'services', 'staff', 'contact', 'contact-success', 'privacy', 'womens-health'];
+$validPages = ['home', 'services', 'staff', 'contact', 'contact-success', 'privacy', 'womens-health', 'notice'];
 /**
  * Page titles
  */
@@ -74,6 +74,11 @@ $titles = [
     'en' => "Women’s Health | HENG REN TANG Acupuncture Clinic",
     'nl' => "Vrouwengezondheid | HENG REN TANG Acupunctuur Kliniek",
     'es' => "Salud de la mujer | Clínica de Acupuntura HENG REN TANG"
+  ],
+  'notice' => [
+    'en' => 'Important Practice Notice | HENG REN TANG',
+    'nl' => 'Belangrijke Praktijkmededeling | HENG REN TANG',
+    'es' => 'Aviso Importante de la Clínica | HENG REN TANG'
   ]
 ];
 

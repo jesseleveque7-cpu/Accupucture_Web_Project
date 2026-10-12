@@ -16,9 +16,9 @@ $announcementSignature = is_array($announcement['signature'] ?? null)
       <div class="transition-announcement__card">
         <div class="transition-announcement__heading">
           <span class="transition-announcement__eyebrow"><?= h((string)($announcement['eyebrow'] ?? 'Important notice')) ?></span>
-          <h2 class="transition-announcement__title" id="transition-announcement-title">
+          <h1 class="transition-announcement__title" id="transition-announcement-title">
             <?= h((string)($announcement['title'] ?? '')) ?>
-          </h2>
+          </h1>
         </div>
 
         <div class="transition-announcement__grid">
