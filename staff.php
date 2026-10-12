@@ -59,7 +59,10 @@ $uiPhoneLabel        = $getStr($L, ['ui','phone_label'], 'Phone');
 
 // CTA labels
 $ctaAppt    = $getStr($L, ['cta_labels','make_appointment'], 'Make an Appointment');
-$ctaPazFromNovember = $getStr($L, ['cta_labels','paz_from_november'], 'Book with Paz from 1 November');
+$ctaPazCurrent = $getStr($L, ['cta_labels','paz_current'], 'Book with Paz');
+$ctaPazUntilOctober = $getStr($L, ['cta_labels','paz_until_october'], 'Until 31 October');
+$ctaPazGreenleaf = $getStr($L, ['cta_labels','paz_greenleaf'], 'Paz via Greenleaf');
+$ctaPazFromNovember = $getStr($L, ['cta_labels','paz_from_november'], 'From 1 November');
 $ctaContact = $getStr($L, ['cta_labels','contact'], 'Contact us');
 $ctaAsk     = $getStr($L, ['cta_labels','ask_question'], 'Ask a question');
 
@@ -272,10 +275,18 @@ $closingSecondaryLabel = (string)($closingSecondary['label'] ?? $ctaContact);
                 <?php endif; ?>
               </div>
 
-              <div class="staff-card__cta">
-                <a class="btn btn--primary btn--sm" href="<?= h($apptUrl) ?>" target="_blank" rel="noopener"><?= h($ctaAppt) ?></a>
+              <div class="staff-card__cta<?= $kShared === 'paz' ? ' staff-card__cta--transition' : '' ?>">
                 <?php if ($kShared === 'paz'): ?>
-                  <a class="btn btn--soft btn--sm" href="<?= h($greenleaf_appointment_url) ?>" target="_blank" rel="noopener"><?= h($ctaPazFromNovember) ?></a>
+                  <a class="btn btn--primary btn--sm staff-card__booking-button" href="<?= h($apptUrl) ?>" target="_blank" rel="noopener">
+                    <span class="staff-card__booking-label"><?= h($ctaPazCurrent) ?></span>
+                    <span class="staff-card__booking-date"><?= h($ctaPazUntilOctober) ?></span>
+                  </a>
+                  <a class="btn btn--soft btn--sm staff-card__booking-button staff-card__booking-button--future" href="<?= h($greenleaf_appointment_url) ?>" target="_blank" rel="noopener">
+                    <span class="staff-card__booking-label"><?= h($ctaPazGreenleaf) ?></span>
+                    <span class="staff-card__booking-date"><?= h($ctaPazFromNovember) ?></span>
+                  </a>
+                <?php else: ?>
+                  <a class="btn btn--primary btn--sm" href="<?= h($apptUrl) ?>" target="_blank" rel="noopener"><?= h($ctaAppt) ?></a>
                 <?php endif; ?>
               </div>
             </header>

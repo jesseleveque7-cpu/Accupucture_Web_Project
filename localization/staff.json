@@ -48,7 +48,10 @@
     },
     "cta_labels": {
       "make_appointment": "Make an Appointment",
-      "paz_from_november": "Book with Paz from 1 November",
+      "paz_current": "Book with Paz",
+      "paz_until_october": "Until 31 October",
+      "paz_greenleaf": "Paz via Greenleaf",
+      "paz_from_november": "From 1 November",
       "contact": "Contact us",
       "ask_question": "Ask a question"
     },
@@ -154,7 +157,10 @@
     },
     "cta_labels": {
       "make_appointment": "Maak een afspraak",
-      "paz_from_november": "Boek bij Paz vanaf 1 november",
+      "paz_current": "Boek bij Paz",
+      "paz_until_october": "T/m 31 oktober",
+      "paz_greenleaf": "Paz via Greenleaf",
+      "paz_from_november": "Vanaf 1 november",
       "contact": "Neem contact op",
       "ask_question": "Stel een vraag"
     },
@@ -260,7 +266,10 @@
     },
     "cta_labels": {
       "make_appointment": "Pedir cita",
-      "paz_from_november": "Reservar con Paz desde el 1 de noviembre",
+      "paz_current": "Reservar con Paz",
+      "paz_until_october": "Hasta el 31 de octubre",
+      "paz_greenleaf": "Paz con Greenleaf",
+      "paz_from_november": "Desde el 1 de noviembre",
       "contact": "Contáctanos",
       "ask_question": "Hacer una pregunta"
     },
