@@ -48,8 +48,7 @@
     },
     "cta_labels": {
       "make_appointment": "Make an Appointment",
-      "make_appointment_until_october": "Book through 31 October",
-      "paz_from_november": "Book Paz from 1 November",
+      "paz_from_november": "Book with Paz from 1 November",
       "contact": "Contact us",
       "ask_question": "Ask a question"
     },
@@ -155,8 +154,7 @@
     },
     "cta_labels": {
       "make_appointment": "Maak een afspraak",
-      "make_appointment_until_october": "Boek t/m 31 oktober",
-      "paz_from_november": "Boek Paz vanaf 1 november",
+      "paz_from_november": "Boek bij Paz vanaf 1 november",
       "contact": "Neem contact op",
       "ask_question": "Stel een vraag"
     },
@@ -262,7 +260,6 @@
     },
     "cta_labels": {
       "make_appointment": "Pedir cita",
-      "make_appointment_until_october": "Reservar hasta el 31 de octubre",
       "paz_from_november": "Reservar con Paz desde el 1 de noviembre",
       "contact": "Contáctanos",
       "ask_question": "Hacer una pregunta"

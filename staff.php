@@ -59,8 +59,7 @@ $uiPhoneLabel        = $getStr($L, ['ui','phone_label'], 'Phone');
 
 // CTA labels
 $ctaAppt    = $getStr($L, ['cta_labels','make_appointment'], 'Make an Appointment');
-$ctaApptUntil = $getStr($L, ['cta_labels','make_appointment_until_october'], 'Book through 31 October');
-$ctaPazFromNovember = $getStr($L, ['cta_labels','paz_from_november'], 'Book Paz from 1 November');
+$ctaPazFromNovember = $getStr($L, ['cta_labels','paz_from_november'], 'Book with Paz from 1 November');
 $ctaContact = $getStr($L, ['cta_labels','contact'], 'Contact us');
 $ctaAsk     = $getStr($L, ['cta_labels','ask_question'], 'Ask a question');
 
@@ -274,7 +273,7 @@ $closingSecondaryLabel = (string)($closingSecondary['label'] ?? $ctaContact);
               </div>
 
               <div class="staff-card__cta">
-                <a class="btn btn--primary btn--sm" href="<?= h($apptUrl) ?>" target="_blank" rel="noopener"><?= h($ctaApptUntil) ?></a>
+                <a class="btn btn--primary btn--sm" href="<?= h($apptUrl) ?>" target="_blank" rel="noopener"><?= h($ctaAppt) ?></a>
                 <?php if ($kShared === 'paz'): ?>
                   <a class="btn btn--soft btn--sm" href="<?= h($greenleaf_appointment_url) ?>" target="_blank" rel="noopener"><?= h($ctaPazFromNovember) ?></a>
                 <?php endif; ?>

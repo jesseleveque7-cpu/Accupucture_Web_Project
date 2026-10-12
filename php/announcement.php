@@ -40,15 +40,7 @@ $announcementSignature = is_array($announcement['signature'] ?? null)
                 <?= h((string)($announcement['website_button'] ?? 'Greenleaf Acupuncture website')) ?>
               </a>
               <a class="btn btn--primary" href="<?= h($greenleaf_appointment_url) ?>" target="_blank" rel="noopener">
-                <?= h((string)($announcement['new_booking_button'] ?? 'Book from 1 November')) ?>
-              </a>
-            </div>
-
-            <div class="transition-announcement__booking-note">
-              <strong><?= h((string)($announcement['current_booking_title'] ?? '')) ?></strong>
-              <p><?= h((string)($announcement['current_booking_note'] ?? '')) ?></p>
-              <a class="text-link" href="<?= h($appointment_url) ?>" target="_blank" rel="noopener">
-                <?= h((string)($announcement['current_booking_button'] ?? 'Book through 31 October')) ?>
+                <?= h((string)($announcement['new_booking_button'] ?? 'Book with Paz from 1 November')) ?>
               </a>
             </div>
           </aside>
